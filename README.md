@@ -1,5 +1,4 @@
-# Secure Linux Endpoint
-**Harden and monitor Linux endpoints 🐧 💻**
+# Linux Hardening Playbook
 
 ![](Banner-Image.png)
 
@@ -7,7 +6,7 @@
 
 ## 📌 Overview
 
-The **Secure Linux Endpoint** is a hands-on project that demonstrates how to **harden and monitor a Linux system** using **open-source tools**.  
+The **Linux Hardening Playbook** is a hands-on project that demonstrates how to **harden and monitor a Linux system** using **open-source tools**.  
 It highlights skills in **system administration** and **SOC engineering** by focusing on endpoint protection, log analysis, and attack detection.  
 
 ---
@@ -18,20 +17,6 @@ It highlights skills in **system administration** and **SOC engineering** by foc
 - Implement **endpoint security tools** (Auditd, Fail2Ban, ClamAV, Suricata, Wazuh agent)  
 - Simulate attacks (brute force, malware, unauthorized file changes)  
 - Detect, log, and respond to incidents  
-
----
-
-## 🏗️ Lab Setup
-
-- **Virtualization**: VirtualBox / VMware / Proxmox  
-- **OS**: Ubuntu Server 22.04 LTS (recommended)  
-- **Network**: NAT or Bridged for connectivity  
-- **Tools Installed**:  
-  - 🔐 **Fail2Ban** → SSH brute force protection  
-  - 🔑 **Auditd** → Activity logging  
-  - 🛡️ **ClamAV** → Malware detection  
-  - 🌐 **Suricata** → Network intrusion detection  
-  - 📊 **Wazuh Agent** → Log collection & SOC monitoring  
 
 ---
 
